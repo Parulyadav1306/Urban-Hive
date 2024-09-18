@@ -4,9 +4,7 @@ body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-
 }
-
 header {
     background-color: #F7F7F7;
 }
@@ -28,8 +26,9 @@ header {
 .nav-contact i {
     padding: 0 10px;
 }
-header .navbar .container-fluid form i{
-    padding-bottom:-5px ;
+
+header .navbar .container-fluid form i {
+    padding-bottom: -5px;
     color: white;
     border: 1px solid #39ACE7;
     border-radius: 50%;
@@ -39,9 +38,9 @@ header .navbar .container-fluid form i{
 
 
 section .container-img {
-    background-image: url("../Imges/banner-1.png ");
+    background-image: url("/assets/Imges/banner-1.png ");
     height: 100%;
-    width: 100vw;
+    width: 100%;
     padding: 20px 0 20px 0;
     background-size: cover;
 }
@@ -87,8 +86,100 @@ section .container .row .col-6 button {
     border: none;
 }
 
+.container-img-2{
+    background-image: url(/assets/Imges/Component\ 18.png);
+    height: 100%;
+    width: 100%;
+    padding: 20px 0 20px 0;
+    background-size: cover;
+}
+.container-img-2 .row .col-6 {
+    margin-left: 50px;
+
+}
 
 
+.container-img-2 .row .col-6 h1 {
+    font-family: "Dancing Script", cursive;
+    font: italic;
+    color: #39ACE7;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+    text-align: left;
+
+}
+
+ .container-img-2 .row .col-6 h2 {
+    font-family: Luxia;
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 72px;
+    text-align: left;
+
+}
+
+.container .row .col-6 p {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29px;
+    text-align: left;
+    margin-right: 100px;
+}
+
+ .container .row .col-6 button {
+    background-color: #39ACE7;
+    border-radius: 10px;
+    border: none;
+}
+.container-img-3{
+    background-image: url(/assets/Imges/Group\ 1261153840.png);
+    height: 100%;
+    width: 100%;
+    padding: 20px 0 20px 0;
+    background-size: cover;
+}
+.container-img-3 .row .col-6 {
+    margin-left: 50px;
+
+}
+
+
+.container-img-3 .row .col-6 h1 {
+    font-family: "Dancing Script", cursive;
+    font: italic;
+    color: #39ACE7;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+    text-align: left;
+
+}
+
+ .container-img-3 .row .col-6 h2 {
+    font-family: Luxia;
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 72px;
+    text-align: left;
+
+}
+
+.container .row .col-6 p {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29px;
+    text-align: left;
+    margin-right: 100px;
+}
+
+ .container .row .col-6 button {
+    background-color: #39ACE7;
+    border-radius: 10px;
+    border: none;
+}
 .all-content {
     color: white;
     margin: 40px 0;
@@ -203,6 +294,10 @@ section .container .row .col-6 button {
     padding: 10px 20px;
     width: fit-content;
 }
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: black;
+    background-color: #f7f7f7;
+}
 
 .four-secs .all-iteams .right-part {
     position: relative;
@@ -268,7 +363,8 @@ section .container .row .col-6 button {
     display: flex;
     flex-wrap: wrap;
 }
-.main-section .container .first-part{
+
+.main-section .container .first-part {
     border-bottom: 1px dashed #F7F7F7;
 }
 
@@ -326,7 +422,8 @@ section .container .row .col-6 button {
     .main-section .container .row .left-box {
         border: none;
     }
-    .main-section .container .first-part{
+
+    .main-section .container .first-part {
         border: none;
     }
 
@@ -704,6 +801,15 @@ footer .social-app .social-btn a {
 
 .complete-contact .contact-img h1 span {
     color: #39ACE7;
+}
+
+.complete-contact .contact-img p {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 33px;
+    text-align: center;
+    width: fit-content;
 }
 
 .contact-address .address-message {

@@ -7,137 +7,125 @@
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="/assets/CSS/style.css">
 </head>
 
 <body>
   <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg -light">
-      <img src="/assets/Imges/urban (1) 1.png" alt="">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <img class="ms-4" src="assets/Imges/urban (1) 1.png" alt="">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-      
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html">Home</a>
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active text-dark" aria-current="page" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about.html">About Us</a>
+              <a class="nav-link text-dark" href="about.html">About Us</a>
             </li>
-            <li>
-              <a class="nav-link" href="our-services.html">Our services</a>
-            </li>
-            <li>
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-            <!-- <li class="nav-item dropdown"> -->
-              <!-- <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <!-- <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Dropdown
               </a> -->
-              <!-- <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div> -->
-            <!-- </li> -->
-            <!-- <li class="nav-item">
-              <a class="nav-link disabled" href="#">Disabled</a>
-            </li> -->
+              <!-- <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul> -->
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark " aria-disabled="true" href="our-services.html">our services</a>
+            </li>
+            <li>
+              <a href="contact.html" class="nav-link text-dark" aria-disabled="true">Contact</a>
+            </li>
           </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <!-- <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"> -->
+          <form class="d-flex" role="search">
             <i class="fa-solid fa-phone-volume"></i>
-            <button class="btn  my-2 my-sm-0" type="submit">+91 9671631503</button>
+            <button class="btn  border-0 " type="submit">+91 983738932</button>
           </form>
         </div>
-      </nav>
+      </div>
+    </nav>
     </header>
     <section class="services">
-        <div class="services-img">
-            <h2 class="pt-4">Our</h2>
-            <h1>Services</h1>
-            <p class="pb-5 pt-5">We are specialized in the export of high-quality Indian spices and textiles. With a
-                commitment to
-                authenticity, quality certifications, and a transparent supply chain, we bring the rich flavors of
-                Indian spices and the vibrant allure of textiles to discerning buyers worldwide.</p>
-
-        </div>
-        <div class="container services-all-item">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="services-item">
-                        <div class="left-icon">
-                            <img src="/assets/Imges/Group 1261153807.png" alt="Quality and Craftsmanship">
-                        </div>
-                        <div class="right-content">
-                            <h5>Quality and Craftsmanship</h5>
-                            <p>Emphasize the authenticity of your Indian spices and textiles and verified suppliers,highlighting direct sourcing
-                                from reputable and verified suppliers, ensuring the integrity of the products.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="services-item">
-                        <div class="left-icon">
-                            <img src="/assets/Imges/Group 1261153808.png" alt="Quality Certifications">
-                        </div>
-                        <div class="right-content">
-                            <h5>Quality Certifications</h5>
-                            <p>Obtain and showcase relevant quality certifications for both spices and textiles, assuring
-                                buyers that your products meet international standards for safety, hygiene, and quality.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="services-item">
-                        <div class="left-icon">
-                            <img src="/assets/Imges/Group 1261153811.png" alt="Customization and Samples">
-                        </div>
-                        <div class="right-content">
-                            <h5>Customization and Samples</h5>
-                            <p>Offer customization options for textiles and provide samples of both spices and textiles to
-                                allow buyers to assess the quality firsthand, demonstrating your commitment to meeting their
-                                specific needs.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6">
-                    <div class="services-item">
-                        <div class="left-icon">
-                            <img src="/assets/Imges/Group 1261153812.png" alt="Responsive Customer Support">
-                        </div>
-                        <div class="right-content">
-                            <h5>Responsive Customer Support</h5>
-                            <p>Establish a responsive customer support system that addresses inquiries promptly, providing
-                                buyers with the confidence that their concerns will be attended to efficiently throughout
-                                the export process.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="services-item">
-                        <div class="left-icon">
-                            <img src="/assets/Imges/Group 1261153809.png" alt="Transparent Supply Chain">
-                        </div>
-                        <div class="right-content">
-                            <h5>Transparent Supply Chain</h5>
-                            <p>Build trust by providing transparency in your supply chain, detailing the journey of products
-                                from production to export. This includes information on sourcing, processing, and packaging.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
+      <div class="services-img text-center">
+          <h2 class="pt-4">Our</h2>
+          <h1>Services</h1>
+          <p class="pb-5 pt-5">We are specialized in the export of high-quality Indian spices and textiles. With a commitment to authenticity, quality certifications, and a transparent supply chain, we bring the rich flavors of Indian spices and the vibrant allure of textiles to discerning buyers worldwide.</p>
+      </div>
+      <div class="container services-all-item">
+          <div class="row">
+              <div class="col-md-6 col-sm-12">
+                  <div class="services-item">
+                      <div class="left-icon">
+                          <img src="/assets/Imges/Group 1261153807.png" alt="Quality and Craftsmanship" class="img-fluid">
+                      </div>
+                      <div class="right-content">
+                          <h5>Quality and Craftsmanship</h5>
+                          <p>Emphasize the authenticity of your Indian spices and textiles and verified suppliers, highlighting direct sourcing from reputable suppliers, ensuring the integrity of the products.</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-6 col-sm-12">
+                  <div class="services-item">
+                      <div class="left-icon">
+                          <img src="/assets/Imges/Group 1261153808.png" alt="Quality Certifications" class="img-fluid">
+                      </div>
+                      <div class="right-content">
+                          <h5>Quality Certifications</h5>
+                          <p>Obtain and showcase relevant quality certifications for both spices and textiles, assuring buyers that your products meet international standards for safety, hygiene, and quality.</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+  
+          <div class="row">
+              <div class="col-md-6 col-sm-12">
+                  <div class="services-item">
+                      <div class="left-icon">
+                          <img src="/assets/Imges/Group 1261153811.png" alt="Customization and Samples" class="img-fluid">
+                      </div>
+                      <div class="right-content">
+                          <h5>Customization and Samples</h5>
+                          <p>Offer customization options for textiles and provide samples of both spices and textiles to allow buyers to assess the quality firsthand, demonstrating your commitment to meeting their specific needs.</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-6 col-sm-12">
+                  <div class="services-item">
+                      <div class="left-icon">
+                          <img src="/assets/Imges/Group 1261153812.png" alt="Responsive Customer Support" class="img-fluid">
+                      </div>
+                      <div class="right-content">
+                          <h5>Responsive Customer Support</h5>
+                          <p>Establish a responsive customer support system that addresses inquiries promptly, providing buyers with the confidence that their concerns will be attended to efficiently throughout the export process.</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+  
+          <div class="row">
+              <div class="col-md-6 col-sm-12">
+                  <div class="services-item">
+                      <div class="left-icon">
+                          <img src="/assets/Imges/Group 1261153809.png" alt="Transparent Supply Chain" class="img-fluid">
+                      </div>
+                      <div class="right-content">
+                          <h5>Transparent Supply Chain</h5>
+                          <p>Build trust by providing transparency in your supply chain, detailing the journey of products from production to export. This includes information on sourcing, processing, and packaging.</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+  
         <footer class="bg-dark text-white py-4">
             <div class="container">
               <div class="row">
@@ -171,7 +159,7 @@
         
                 <!-- Footer Column 3 -->
                 <div class="col-md-4 mb-3">
-                  <button class="mb-4 ">Contant Us</button>
+                  <button class="mb-4 ">Contact Us</button>
                   <p><i class="bi bi-house-door"></i>2972 Westheimer Rd. Santa Ana
                     Illinois 85486 </p>
                   <p><i class="bi bi-envelope"></i>From 10 a.m. to 6 p.m.</p>
