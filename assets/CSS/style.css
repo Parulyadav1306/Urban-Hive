@@ -45,7 +45,8 @@ section .container-img {
     padding: 20px 0 20px 0;
     background-size: cover;
 }
-.container-img button{
+
+.container-img button {
     background-color: #39ACE7;
     font-weight: 300;
     font-size: 20px;
@@ -58,7 +59,8 @@ section .container-img {
 
 
 }
-.container-img-2 button{
+
+.container-img-2 button {
     background-color: #39ACE7;
     font-weight: 500;
     font-size: 20px;
@@ -70,7 +72,8 @@ section .container-img {
     margin-top: 20px;
 
 }
-.container-img-3 button{
+
+.container-img-3 button {
     background-color: #39ACE7;
     font-weight: 400;
     font-size: 20px;
@@ -81,6 +84,7 @@ section .container-img {
     font-weight: 400;
     margin-top: 20px;
 }
+
 section .container-img .row .col-6 {
     margin-left: 50px;
 
@@ -262,37 +266,53 @@ section .container .row .col-6 button {
     overflow: hidden;
     max-width: 100vw;
     margin-bottom: 50px;
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
-.counter-section .counter-text{
-  border-right: 1px solid white;
-  width: fit-content;
-  padding: 0 20px;
+
+.counter-section .counter-text {
+    border-right: 1px solid white;
+    width: fit-content;
+    padding: 0 30px;
+    margin: 20px 0;
 }
-.counter-section .counter-text h2{
-  color: #39ACE7;
+
+.counter-section .counter-text h2 {
+    color: #39ACE7;
     text-align: center;
-   
+
 }
-.counter-section .counter-text-1{
-  margin-top:5px ;
-  padding-left: 10px;
+
+.counter-section .counter-text-1 {
+    margin-top: 5px;
+    padding-left: 20px;
 }
-.counter-section .counter-text-1 h2{
-  color: #39ACE7;
+
+.counter-section .counter-text-1 h2 {
+    color: #39ACE7;
     text-align: center;
-   
+
 }
-.counter-section .counter-text p{
-  color: #39ACE7;
+
+.counter-section .counter-text p {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
     text-align: center;
+    font-weight: 500;
 }
-.counter-section .counter-text-1 p{
-  color: #39ACE7;
+
+.counter-section .counter-text-1 p {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
     text-align: center;
+    font-weight: 500;
 }
+
 .bule-col {
     color: #39ACE7;
     font-family: Dancing Script;
@@ -594,7 +614,7 @@ section .container .row .col-6 button {
 }
 
 /* slide css  */
-.slider-class.your-slider{
+.slider-class.your-slider {
     width: 100%;
     height: 400px;
     /* background-color: #F1F4FF; */
@@ -618,14 +638,15 @@ section .container .row .col-6 button {
 
 .box-content p {
     font-family: "Roboto", sans-serif;
-        font-size: 16px;
+    font-size: 16px;
     font-weight: 400;
     line-height: 23px;
     text-align: left;
     padding: 13px;
 }
-.your-slider div img{
-  margin-top: 10px;
+
+.your-slider div img {
+    margin-top: 10px;
 }
 
 
@@ -725,7 +746,7 @@ section .container .row .col-6 button {
 .all-contant .contant h5 {
     width: 100%;
     font-family: "Roboto", sans-serif;
-        font-size: 18px;
+    font-size: 18px;
     font-weight: 700;
     line-height: 29px;
     text-align: left;
@@ -733,7 +754,7 @@ section .container .row .col-6 button {
 
 .all-contant .contant p {
     font-family: "Roboto", sans-serif;
-        font-size: 18px;
+    font-size: 18px;
     font-weight: 200;
     line-height: 29px;
     text-align: left;
@@ -823,7 +844,7 @@ section .container .row .col-6 button {
     section .container-img-3 .row .col-6 {
         width: 80%;
     }
-   
+
 }
 
 @media only screen and (max-width:770px) {
@@ -868,14 +889,17 @@ section .container .row .col-6 button {
     .four-secs .all-iteams .right-part {
         margin-top: 30px;
     }
+
     .contact-address .contact-from .f-two {
         display: flex;
         flex-direction: column;
     }
-    .contact-address .contact-from .f-two input  {
+
+    .contact-address .contact-from .f-two input {
         margin-bottom: 20px;
         width: 100%;
     }
+
     /* .contact-address .contact-from .f-two-phn{
         display: flex;
         flex-direction: column;
@@ -884,26 +908,30 @@ section .container .row .col-6 button {
     /* .contact-address .contact-from .f-two-phn {
         margin-top: 20px;
     } */
-    
-    
+
+
 }
-@media only screen and (max-width:500px){
-    .container-img button{
+
+@media only screen and (max-width:500px) {
+    .container-img button {
         font-size: 18px;
         padding: 5px 10px;
-        
+
     }
-    .container-img-2 button{
+
+    .container-img-2 button {
         font-size: 18px;
         padding: 5px 10px;
-        
+
     }
-    .container-img-3 button{
+
+    .container-img-3 button {
         font-size: 18px;
         padding: 5px 10px;
-        
+
     }
 }
+
 @media only screen and (max-width:480px) {
     .all-contant .first-contant img {
         position: absolute;
@@ -916,32 +944,72 @@ section .container .row .col-6 button {
         top: -100px;
         left: 40px;
     }
-    
-}
-@media only screen and (max-width:390px) {
-.your-slider .box-content{
-    width: 300px;
-    /* height: 100%; */
-}
-}
-@media only screen and (max-width:320px) {
-footer .footer-last-part p{
-    text-align: start;
-}
-.counter-section .counter-text {
 
-    padding: 0 10px;
 }
-.all-contant .first-contant img {
-    position: absolute;
-    top: -100px;
-    left: 17px;
+
+@media only screen and (max-width:390px) {
+    .your-slider .box-content {
+        width: 300px;
+    }
+
+    .counter-section .counter-text {
+        padding: 0 7px;
+    }
+
+    .counter-section .counter-text-1 {
+        padding: 0 7px;
+    }
 }
-.all-contant .second-contant img {
-    position: absolute;
-    top: -100px;
-    left: 17px;
-}
+
+@media only screen and (max-width:320px) {
+    footer .footer-last-part p {
+        text-align: start;
+    }
+
+    .counter-section .counter-text {
+        padding: 0 7px;
+    }
+
+    .counter-section .counter-text-1 {
+        padding: 0 7px;
+    }
+
+    .all-contant .first-contant img {
+        position: absolute;
+        top: -100px;
+        left: 17px;
+    }
+
+    .all-contant .second-contant img {
+        position: absolute;
+        top: -100px;
+        left: 17px;
+    }
+
+    .main-section h1 {
+        font-size: 32px;
+        padding: 0 22px;
+    }
+
+    .main-section h2 {
+        font-size: 47px;
+        padding: 0 22px;
+    }
+
+    .main-section p {
+        font-family: Roboto;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: center;
+
+    }
+    .main-section .container .row .box .right p {
+        text-align: justify;
+    }
+    .main-section .container .row .box .icon img{
+        padding: 10px 0;
+    }
 }
 
 /* -----------------footer------------------ */
@@ -976,7 +1044,8 @@ footer .text-center {
     /* Top border for the bottom section */
     padding-top: 10px;
 }
-footer .text-center p{
+
+footer .text-center p {
     font-size: 13px;
     color: #FFFFFF;
 
@@ -1102,7 +1171,7 @@ footer .footer-last-part p {
     padding: 0 30px;
 }
 
-           /* CONTACT US PAGE */
+/* CONTACT US PAGE */
 .complete-contact .contact-img {
     background: url(/assets/Imges/Group\ 42.png);
     background-size: cover;
@@ -1178,7 +1247,7 @@ footer .footer-last-part p {
 
 .contact-address .address-message .last-contact h4 span {
     font-family: "Roboto", sans-serif;
-        font-size: 24px;
+    font-size: 24px;
     font-weight: 700;
     line-height: 36px;
     text-align: left;
@@ -1209,7 +1278,8 @@ footer .footer-last-part p {
     border: 1px solid black;
     margin: 0 20px;
 }
-.contact-address .row{
+
+.contact-address .row {
     margin-top: -16px;
 }
 
@@ -1250,15 +1320,18 @@ footer .footer-last-part p {
     justify-content: space-between;
     margin: 15px 0px;
 }
-.contact-address .contact-from .f-two-phn{
+
+.contact-address .contact-from .f-two-phn {
     display: flex;
     justify-content: space-between;
     margin: 15px 0px;
 }
-.contact-address .contact-from .f-two-phn .countary{
+
+.contact-address .contact-from .f-two-phn .countary {
     width: 25%;
 }
-.contact-address .contact-from .f-two-phn .mobile{
+
+.contact-address .contact-from .f-two-phn .mobile {
     width: 65%;
 }
 
