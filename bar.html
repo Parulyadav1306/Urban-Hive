@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
@@ -13,64 +14,153 @@
   <title>Document</title>
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
-    .counter-section {
-    background: linear-gradient(rgba(0, 0, 0, 0.92), rgba(0, 0, 0, 0.90)), url(/assets/images/about-us/about-us.png);
-    overflow: hidden;
-    max-width: 100vw;
-    margin-bottom: 50px;
-    display:flex;
-    justify-content: center;
-    align-items: center;
+    .services .services-img {
+    background: url(/assets/Imges/Group\ 42.png);
+    background-size: cover;
 }
-.counter-section .counter-text{
-  border-right: 1px solid white;
-  width: fit-content;
-  margin: 20px 20px;
-  padding: 0 20px;
-}
-.counter-section .counter-text h2{
-  color: #39ACE7;
-    text-align: center;
-   
-}
-.counter-section .counter-text-1{
-  margin-top:5px ;
-}
-.counter-section .counter-text-1 h2{
-  color: #39ACE7;
-    text-align: center;
-   
-}
-.counter-section .counter-text p{
-  color: #39ACE7;
-    text-align: center;
-}
-.counter-section .counter-text-1 p{
-  color: #39ACE7;
+
+.services .services-img h2 {
+    color: #39ACE7;
+    font-family: Dancing Script;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60px;
     text-align: center;
 }
 
+.services .services-img h1 {
+    font-family: Luxia;
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 72px;
+    text-align: center;
+    color: #fff;
+    border-bottom: 2px solid white;
+    width: fit-content;
+    margin: auto;
+
+}
+
+.services .services-img p {
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 33px;
+    text-align: center;
+    color: #fff;
+    width: fit-content;
+
+}
+.services-all-item .services-item img {
+    margin: 2px 15px;
+    width: 50px;
+
+}
 
 
-    
+.services-all-item .services-item {
+    display: flex;
+    align-items: flex-start;
+    padding: 15px;
+    background-color: #f6f6f6F7;
+    margin: 20px 20px;
+}
+
+.services-all-item .services-item .right-content {
+    padding: 0 30px;
+}
+.all-item-1{
+  display: flex;
+  justify-content: space-evenly;
+}
+.last-iteam-1{
+  width: 50%;
+}
+@media only screen and (max-width:500px) {
+  .all-item-1{
+    display: block;
+  }
+  .last-iteam-1{
+    width: 100%;
+  }
+}
+@media only screen and (max-width:320px){
+.last-iteam-1{
+  width: 100%;
+}
+.services-all-item .services-item{
+  padding:5px 0;
+}
+
+}
+
    </style>
 </head>
 
 <body>
-  <div class="counter-section">
-    <div class="counter-text">
-      <h2>40+</h2>
-      <p>Countary</p>
+  <section class="services">
+    <div class="services-img text-center">
+        <h2 class="pt-4">Our</h2>
+        <h1>Services</h1>
+        <p class="px-4 py-4">We are specialized in the export of high-quality Indian spices and textiles. With a commitment to authenticity, quality certifications, and a transparent supply chain, we bring the rich flavors of Indian spices and the vibrant allure of textiles to discerning buyers worldwide.</p>
     </div>
-    <div class="counter-text">
-      <h2>100%</h2>
-      <p>Ethnic Spices and textile</p>
+    <div class="container services-all-item">  
+      <div class="all-item-1">
+                <div class="services-item">
+                    <div class="left-icon">
+                        <img src="/assets/Imges/Group 1261153807.png" alt="Quality and Craftsmanship" class="img-fluid">
+                    </div>
+                    <div class="right-content">
+                        <h5>Quality and Craftsmanship</h5>
+                        <p>Emphasize the authenticity of your Indian spices and textiles and verified suppliers, highlighting direct sourcing from reputable suppliers, ensuring the integrity of the products.</p>
+                    </div>
+                </div>
+                <div class="services-item">
+                    <div class="left-icon">
+                        <img src="/assets/Imges/Group 1261153808.png" alt="Quality Certifications" class="img-fluid">
+                    </div>
+                    <div class="right-content">
+                        <h5>Quality Certifications</h5>
+                        <p>Obtain and showcase relevant quality certifications for both spices and textiles, assuring buyers that your products meet international standards for safety, hygiene, and quality.</p>
+                    </div>
+                </div>
+              </div>
+        
+
+        <div class="all-item-1">
+                <div class="services-item">
+                    <div class="left-icon">
+                        <img src="/assets/Imges/Group 1261153811.png" alt="Customization and Samples" class="img-fluid">
+                    </div>
+                    <div class="right-content">
+                        <h5>Customization and Samples</h5>
+                        <p>Offer customization options for textiles and provide samples of both spices and textiles to allow buyers to assess the quality firsthand, demonstrating your commitment to meeting their specific needs.</p>
+                    </div>
+                </div>
+                <div class="services-item">
+                    <div class="left-icon">
+                        <img src="/assets/Imges/Group 1261153812.png" alt="Responsive Customer Support" class="img-fluid">
+                    </div>
+                    <div class="right-content">
+                        <h5>Responsive Customer Support</h5>
+                        <p>Establish a responsive customer support system that addresses inquiries promptly, providing buyers with the confidence that their concerns will be attended to efficiently throughout the export process.</p>
+                    </div>
+                </div>
+        </div>
+
+        <div class="last-iteam-1">
+                <div class="services-item">
+                    <div class="left-icon">
+                        <img src="/assets/Imges/Group 1261153809.png" alt="Transparent Supply Chain" class="img-fluid">
+                    </div>
+                    <div class="right-content">
+                        <h5>Transparent Supply Chain</h5>
+                        <p>Build trust by providing transparency in your supply chain, detailing the journey of products from production to export. This includes information on sourcing, processing, and packaging.</p>
+                    </div>
+                </div>
+        </div>
     </div>
-    <div class="counter-text-1">
-      <h2>4k+</h2>
-      <p>Globla customers</p>
-    </div>
-    </div>
+</section>
 
 
 
