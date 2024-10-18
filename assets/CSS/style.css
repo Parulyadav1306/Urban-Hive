@@ -822,7 +822,24 @@ section .container .row .col-6 button {
     .four-secs-1 {
         display: none;
     }
+    .services .services-section .row .services-item{
+        margin: 15px 20px;
+    }
+    
+    .services .services-section .row{
+        margin-bottom:1px;
+    }
 }
+@media only screen and (max-width:980px){
+    .services .services-section .row .services-item{
+        margin: 15px 20px;
+    }
+    
+    .services .services-section .row{
+        margin-bottom:1px;
+    }
+}
+
 
 @media only screen and (max-width:870px) {
     section .container-img .row .col-6 {
@@ -1154,34 +1171,60 @@ footer .footer-last-part p {
     width: fit-content;
 
 }
-
-.services-all-item .services-item img {
-    margin: 2px 15px;
-    width: 50px;
-
+.services .services-section {
+    margin: 30px 0; /* Combined top and bottom margins */
 }
 
+.services .services-section .row {
+    margin-bottom: 20px;
+}
 
-.services-all-item .services-item {
+.services .services-section .row .services-item {
     display: flex;
-    align-items: flex-start;
-    padding: 15px;
-    background-color: #f6f6f6F7;
-    margin: 20px 20px;
+    justify-content: space-between;
+    background-color: #F7F7F7;
+    margin: 0 20px;
+    margin-left:90px ;
+        
 }
 
-.services-all-item .services-item .right-content {
-    padding: 0 30px;
+.services .services-section .row .services-icon {
+    padding: 20px ;
 }
 
-.all-item-1 {
-    display: flex;
-    justify-content: space-evenly;
+.services .services-section .row .services-content {
+    padding: 0 15px;
 }
 
-.last-iteam-1 {
-    width: 50%;
+/* Responsive adjustments */
+@media (max-width: 1200px) {
+    .services .services-section .row .services-item {
+        margin: 0 15px; /* Reduce margin for medium screens */
+    }
 }
+
+@media (max-width: 992px) {
+    .services .services-section .row .services-item {
+        /* flex-direction: column; Stack items vertically */
+        margin: 10px ; /* Adjust vertical margins */
+    }
+
+}
+
+@media (max-width: 768px) {
+    .services .services-section .row .services-item {
+        margin: 10px 15px; /* Reduce margin for small screens */
+    }
+
+    .services .services-section .row .services-icon {
+        padding: 15px; /* Adjust padding for icons */
+    }
+
+    .services .services-section .row .services-content {
+        padding: 10px; /* Adjust padding for content */
+    }
+}
+
 
 /* CONTACT US PAGE */
 .complete-contact .contact-img {
